@@ -4,13 +4,13 @@ import { useState } from "react";
 import { Button, Form } from "react-bootstrap";
 import styled from 'styled-components'
 
-const MiDiv = styled.div`
+/* const MiDiv = styled.div`
 
   & #form {
     background-color: red;
   }
 
-`
+` */
 
 const Formulario = (props) => {
   const [inputs, setInputs] = useState({
@@ -38,7 +38,7 @@ const Formulario = (props) => {
   };
 
   return (
-    <MiDiv className="d-flex flex-column align-items-center">
+    <div className="d-flex flex-column align-items-center">
       {Object.keys(inputs).map((key, index) => (
         <Form.Group className="pt-3" key={index} style={{ maxWidth: "200px" }}>
           <Form.Label id="form">{key === "dni" ? key.toUpperCase() : key[0].toUpperCase() + key.slice(1)}</Form.Label>
@@ -51,7 +51,7 @@ const Formulario = (props) => {
       ))}
        <Button className="mt-3" onClick={handleClick}>Enviar</Button>
       
-    </MiDiv>
+    </div>
   );
 };
 

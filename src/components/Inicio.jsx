@@ -16,28 +16,22 @@ return (
       <section className="page-section" id="services">
           <div className="container">
               <div className="text-center">
-    
-                    <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
-                        <div className="carousel-inner">
-                            <div className="carousel-item active">
-                                <img src="./assets/img/about/frenteDia.jpg" className="d-block w-100" alt="..." />
-                            </div>
-                            <div className="carousel-item">
-                                <img src="./assets/img/about/foto exterior.jpg" className="d-block w-100" alt="..." />
-                            </div>
-                            <div className="carousel-item">
-                                <img src="./assets/img/about/interior.jpg" className="d-block w-100" alt="..." />
-                            </div>
+              <h2 className="section-heading text-uppercase">Nuestro Local</h2>
+              <h3 className="section-subheading text-muted">Visitanos</h3>
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/img/about/frenteDia.jpg" class="d-block w-100" alt="..." />
                         </div>
-                        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span className="visually-hidden">Previous</span>
-                        </button>
-                        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span className="visually-hidden">Next</span>
-                        </button>
+                        <div class="carousel-item">
+                            <img src="./assets/img/about/foto exterior.jpg" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/about/interior.jpg" class="d-block w-100" alt="..." />
+                        </div>
                     </div>
+                </div>
+              
                 </div>
             </div>
         </section> 
@@ -75,7 +69,7 @@ return (
                           </a>
                           <div className="portfolio-caption">
                               <div className="portfolio-caption-heading">Radiador</div>
-                              <div className="portfolio-caption-subheading text-muted">Graphic Design</div>
+                             <div className="portfolio-caption-subheading text-muted">Reservorios de agua para radiadores</div> 
                           </div>
                       </div>
                   </div>
@@ -131,11 +125,11 @@ return (
                               <div className="portfolio-hover">
                                   <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x"></i></div>
                               </div>
-                              <img className="img-fluid" src="assets/img/portfolio/productos/abrazaderas.jpg" alt="..." />
+                              <img className="img-fluid" src="assets/img/team/felpas.jpg" alt="..." />
                           </a>
                           <div className="portfolio-caption">
-                              <div className="portfolio-caption-heading">Abrazaderas</div>
-                              <div className="portfolio-caption-subheading text-muted">Todo tipo de abrazaderas</div>
+                              <div className="portfolio-caption-heading">Felpas</div>
+                              <div className="portfolio-caption-subheading text-muted">Felpas para pisos</div>
                           </div>
                       </div>
                   </div>
@@ -145,62 +139,49 @@ return (
   
       <section className="page-section" id="about">
           <div className="container">
-              <div className="text-center">
-                  <h2 className="section-heading text-uppercase">About</h2>
-                 
-              </div>
+              
               <ul className="timeline">
                   <li>
                       <div className="timeline-image"><img className="rounded-circle img-fluid" src="assets/img/portfolio/productos/correasdentromotor.jpg" alt="..." /></div>
                       <div className="timeline-panel">
                           <div className="timeline-heading">
-                              <h4>2009-2011</h4>
-                              <h4 className="subheading">Our Humble Beginnings</h4>
+                              <h4>Correas Automotor</h4>
+                              
                           </div>
-                          <div className="timeline-body"><p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                          <div className="timeline-body"><p className="text-muted">Trapezoidales, Poly-V, De distribución, Industriales</p></div>
                       </div>
                   </li>
                   <li className="timeline-inverted">
                       <div className="timeline-image"><img className="rounded-circle img-fluid" src="assets/img/portfolio/productos/aguaradiador.jpg" alt="..." /></div>
                       <div className="timeline-panel">
                           <div className="timeline-heading">
-                              <h4>March 2011</h4>
-                              <h4 className="subheading">An Agency is Born</h4>
+                              <h4>Mangueras de Automotor</h4>
+                              
                           </div>
-                          <div className="timeline-body"><p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                          <div className="timeline-body"><p className="text-muted">Para todo tipo de vehículos</p></div>
                       </div>
                   </li>
                   <li>
                       <div className="timeline-image"><img className="rounded-circle img-fluid" src="assets/img/portfolio/productos/dondevamangueraagua.jpg" alt="..." /></div>
                       <div className="timeline-panel">
                           <div className="timeline-heading">
-                              <h4>December 2015</h4>
-                              <h4 className="subheading">Transition to Full Service</h4>
+                              <h4>Asesoramiento a nuestros clientes</h4>
+                              
                           </div>
-                          <div className="timeline-body"><p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                          <div className="timeline-body"><p className="text-muted">Todo lo necesario para el motor de tu vehículo no importa la marca o el modelo</p></div>
                       </div>
                   </li>
                   <li className="timeline-inverted">
                       <div className="timeline-image"><img className="rounded-circle img-fluid" src="assets/img/portfolio/productos/mangueras.jpg" alt="..." /></div>
                       <div className="timeline-panel">
                           <div className="timeline-heading">
-                              <h4>July 2020</h4>
-                              <h4 className="subheading">Phase Two Expansion</h4>
+                              <h4>Mangueras Industriales y Hogar</h4>
+                              
                           </div>
-                          <div className="timeline-body"><p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                          <div className="timeline-body"><p className="text-muted">Mangueras para la industria y el hogar</p></div>
                       </div>
                   </li>
-                  <li className="timeline-inverted">
-                      <div className="timeline-image">
-                          <h4>
-                              Be Part
-                              <br />
-                              Of Our
-                              <br />
-                              Story!
-                          </h4>
-                      </div>
-                  </li>
+                  
               </ul>
           </div>
       </section>
@@ -208,71 +189,44 @@ return (
       <section className="page-section bg-light" id="team">
           <div className="container">
               <div className="text-center">
-                  <h2 className="section-heading text-uppercase">Our Amazing Team</h2>
-                  <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                  <h2 className="section-heading text-uppercase">Mas Productos</h2>
+                  
               </div>
               <div className="row">
                   <div className="col-lg-4">
                       <div className="team-member">
-                          <img className="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
-                          <h4>Parveen Anand</h4>
-                          <p className="text-muted">Lead Designer</p>
-                          <a className="btn btn-dark btn-social mx-2" href="#!"><i className="fab fa-twitter"></i></a>
-                          <a className="btn btn-dark btn-social mx-2" href="#!"><i className="fab fa-facebook-f"></i></a>
-                          <a className="btn btn-dark btn-social mx-2" href="#!"><i className="fab fa-linkedin-in"></i></a>
+                          <img className="mx-auto rounded-circle" src="assets/img/team/pisoscolonial.jpg" alt="..." />
+                          <h4>Pisos</h4>
+                          
                       </div>
                   </div>
                   <div className="col-lg-4">
                       <div className="team-member">
-                          <img className="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
-                          <h4>Diana Petersen</h4>
-                          <p className="text-muted">Lead Marketer</p>
-                          <a className="btn btn-dark btn-social mx-2" href="#!"><i className="fab fa-twitter"></i></a>
-                          <a className="btn btn-dark btn-social mx-2" href="#!"><i className="fab fa-facebook-f"></i></a>
-                          <a className="btn btn-dark btn-social mx-2" href="#!"><i className="fab fa-linkedin-in"></i></a>
+                          <img className="mx-auto rounded-circle" src="assets/img/team/repuestosautomotor.jpg" alt="..." />
+                          <h4>Repuestos Automotor</h4>
+                          
                       </div>
                   </div>
                   <div className="col-lg-4">
                       <div className="team-member">
-                          <img className="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
-                          <h4>Larry Parker</h4>
-                          <p className="text-muted">Lead Developer</p>
-                          <a className="btn btn-dark btn-social mx-2" href="#!"><i className="fab fa-twitter"></i></a>
-                          <a className="btn btn-dark btn-social mx-2" href="#!"><i className="fab fa-facebook-f"></i></a>
-                          <a className="btn btn-dark btn-social mx-2" href="#!"><i className="fab fa-linkedin-in"></i></a>
+                          <img className="mx-auto rounded-circle" src="assets/img/team/termostato.jpg" alt="..." />
+                          
+                          <p className="text-muted">Termostatos</p>
+                          
                       </div>
                   </div>
               </div>
-              <div className="row">
-                  <div className="col-lg-8 mx-auto text-center"><p className="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
-              </div>
+              
           </div>
-      </section>
+      </section> 
   
-      <div className="py-5">
-          <div className="container">
-              <div className="row align-items-center">
-                  <div className="col-md-3 col-sm-6 my-3">
-                      <a href="#!"><img className="img-fluid img-brand d-block mx-auto" src="assets/img/logos/microsoft.svg" alt="..." /></a>
-                  </div>
-                  <div className="col-md-3 col-sm-6 my-3">
-                      <a href="#!"><img className="img-fluid img-brand d-block mx-auto" src="assets/img/logos/google.svg" alt="..." /></a>
-                  </div>
-                  <div className="col-md-3 col-sm-6 my-3">
-                      <a href="#!"><img className="img-fluid img-brand d-block mx-auto" src="assets/img/logos/facebook.svg" alt="..." /></a>
-                  </div>
-                  <div className="col-md-3 col-sm-6 my-3">
-                      <a href="#!"><img className="img-fluid img-brand d-block mx-auto" src="assets/img/logos/ibm.svg" alt="..." /></a>
-                  </div>
-              </div>
-          </div>
-      </div>
+       
      
       <section className="page-section" id="contact">
           <div className="container">
               <div className="text-center">
-                  <h2 className="section-heading text-uppercase">Contact Us</h2>
-                  <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                  <h2 className="section-heading text-uppercase">CONTACTO</h2>
+                  <h3 className="section-subheading text-muted">Tu consulta no nos molesta</h3>
               </div>
               
               <form id="contactForm" data-sb-form-api-token="API_TOKEN">
@@ -280,31 +234,31 @@ return (
                       <div className="col-md-6">
                           <div className="form-group">
                            
-                              <input className="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
-                              <div className="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                              <input className="form-control" id="name" type="text" placeholder="Nombre*" data-sb-validations="required" />
+                              <div className="invalid-feedback" data-sb-feedback="name:required">Nombre</div>
                           </div>
                           <div className="form-group">
                             
-                              <input className="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
-                              <div className="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                              <div className="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                              <input className="form-control" id="email" type="email" placeholder="Email *" data-sb-validations="required,email" />
+                              <div className="invalid-feedback" data-sb-feedback="email:required">e-mail</div>
+                              <div className="invalid-feedback" data-sb-feedback="email:email">Email invalido</div>
                           </div>
                           <div className="form-group mb-md-0">
                             
-                              <input className="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
-                              <div className="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                              <input className="form-control" id="phone" type="tel" placeholder="Teléfono *" data-sb-validations="required" />
+                              <div className="invalid-feedback" data-sb-feedback="phone:required">Teléfono</div>
                           </div>
                       </div>
                       <div className="col-md-6">
                           <div className="form-group form-group-textarea mb-md-0">
                            
-                              <textarea className="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
-                              <div className="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                              <textarea className="form-control" id="message" placeholder="Mensaje *" data-sb-validations="required"></textarea>
+                              <div className="invalid-feedback" data-sb-feedback="message:required">Mensaje</div>
                           </div>
                       </div>
                   </div>
                  
-                  <div className="d-none" id="submitSuccessMessage">
+                   <div className="d-none" id="submitSuccessMessage">
                       <div className="text-center text-white mb-3">
                           <div className="fw-bolder">Form submission successful!</div>
                           To activate this form, sign up at
@@ -321,21 +275,21 @@ return (
       <footer className="footer py-4">
           <div className="container">
               <div className="row align-items-center">
-                  <div className="col-lg-4 text-lg-start">Copyright &copy; Your Website 2021</div>
+                  <div className="col-lg-4 text-lg-start">Copyright &copy; 2022</div>
                   <div className="col-lg-4 my-3 my-lg-0">
                       <a className="btn btn-dark btn-social mx-2" href="#!"><i className="fab fa-twitter"></i></a>
                       <a className="btn btn-dark btn-social mx-2" href="#!"><i className="fab fa-facebook-f"></i></a>
                       <a className="btn btn-dark btn-social mx-2" href="#!"><i className="fab fa-linkedin-in"></i></a>
                   </div>
                   <div className="col-lg-4 text-lg-end">
-                      <a className="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
-                      <a className="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                      <a className="link-dark text-decoration-none me-3" href="#!">Política de privacidad</a>
+                    
                   </div>
               </div>
           </div>
       </footer>
     
-      <div className="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+       <div className="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
           <div className="modal-dialog">
               <div className="modal-content">
                   <div className="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
