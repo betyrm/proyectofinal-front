@@ -1,3 +1,11 @@
+Proyecto Final: Desarrollo de páginas web de UTN
+Nombre: Beatriz Martinez
+
+Explicación del proyecto:
+"Este repositorio contiene solo el Front
+Página web desarrollada con html, CSS, Javascrip y React.
+El objetivo es la promoción de una PYME (ATUEL GOMA), mostrando algunos de sus productos y la posibilidad  de agregar los datos de clientes que se registren, desarrollado con React."
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
